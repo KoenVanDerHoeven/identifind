@@ -1,0 +1,191 @@
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="Koen2000xp" content="">
+
+    <title>PennApps Winter 2015</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body style="background: #F98706; color: #F98706">
+    
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="PennApps.html"><font color = #fae8be>identifind</font></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="PennAppsHome.html">Home</a></li>
+        <li><a href="WhatIsPennApps.html">What is PennApps?</a></li>
+        <li><a href="AboutKala.html">About KALA</a></li>
+        <li class="active"><a href="Gallery.html">Gallery and links</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+    <br>
+    <br>
+    <br>
+    <center>
+        <div class="text-vertical-center">
+            <h1><font color = #fae8be>Gallery</font></h1>
+        </div>
+    </center>
+    <br>
+
+<meta charset='utf-8'/>
+    <title>jQuery Zoom Demo</title>
+    <style>
+        /* styles unrelated to zoom */
+        * { border:0; margin:0; padding:0; }
+        p { position:absolute; top:3px; right:28px; color:#555; font:bold 13px/1 sans-serif;}
+
+        /* these styles are for the demo, but are not required for the plugin */
+        .zoom {
+            display:inline-block;
+            position: relative;
+        }
+        
+        /* magnifying glass icon */
+        .zoom:after {
+            content:'';
+            display:block; 
+            width:33px; 
+            height:33px; 
+            position:absolute; 
+            top:0;
+            right:0;
+            background:url(icon.png);
+        }
+
+        .zoom img {
+            display: block;
+        }
+
+        .zoom img::selection { background-color: transparent; }
+
+    </style>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <script src='jquery.zoom.js'></script>
+    <script>
+        $(document).ready(function(){
+            $('#ex1').zoom();
+            $('#ex2').zoom();
+            $('#ex3').zoom();
+            $('#ex4').zoom();
+            $('#ex5').zoom();
+            $('#ex6').zoom();
+            $('#ex7').zoom();
+            $('#ex8').zoom();
+        });
+    </script>
+
+        <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <span class='zoom' id='ex1'>
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src='gallery1.png' width='400' height='300'/>
+                    </a>
+                </span>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <span class='zoom' id='ex2'>
+                     <a class="thumbnail" href="#">
+                        <img class="img-responsive" src='gallery2.png' width='400' height='300'/>
+                    </a>
+                </span>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <span class='zoom' id='ex3'>
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src='gallery3.png' width='400' height='300'/>
+                    </a>
+                </span>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <span class='zoom' id='ex4'>
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src='gallery4.png' width='400' height='300'/>
+                    </a>
+                </span>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <span class='zoom' id='ex5'>
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src='gallery5.png' width='400' height='300'/>
+                    </a>
+                </span>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <span class='zoom' id='ex6'>
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src='gallery5.png' width='400' height='300'/>
+                    </a>
+                </span>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <span class='zoom' id='ex7'>
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src='gallery5.png' width='400' height='300'/>
+                    </a>
+                </span>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <span class='zoom' id='ex8'>
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src='gallery5.png' width='400' height='300'/>
+                    </a>
+                </span>
+            </div>
+        </div>
+
+<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <div style="position: absolute; center; bottom: 5px; background-color: black">
+    Koen Van Der Hoeven, Alex Little, Lauren Datz, Alex Daley-Montgomery PENNAPPS (C) 2015
+    </div>
+
+</body>
+
+</html>
